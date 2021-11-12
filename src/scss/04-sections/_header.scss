@@ -4,7 +4,9 @@
 
     &__row{
         display: flex;
+        flex-wrap: nowrap;
         justify-content: space-between;
+        align-items: center;
     }
         &__title{
             font-size: 1rem;
@@ -17,7 +19,7 @@
                 
                 width: 8px;
                 height: 8px;
-                margin-right: 4px;
+                margin-right: 6px;
                 background-color: $green;
                 border-radius: 50%;
             }
