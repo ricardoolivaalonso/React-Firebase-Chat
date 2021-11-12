@@ -1,0 +1,25 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	user-select: none;
+
+	scrollbar-color: rgba($cta, .2);
+    scrollbar-width: thin;
+}
+::-webkit-scrollbar {
+	width: 4px;
+	height: 4px;
+}
+::-webkit-scrollbar-track {
+	background-color: rgba($cta, .2);
+}
+::-webkit-scrollbar-thumb {
+	background-color: rgba($cta, .3);
+}
+// ::selection {
+// 	color: $white;
+// 	background: $black;
+// }
